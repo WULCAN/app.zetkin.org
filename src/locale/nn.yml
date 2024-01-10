@@ -8,8 +8,8 @@ core:
     continueButton: Tilbake til gammel versjon av Zetkin
     header: Du blir videresendt
     info: Du bruker en uferdig versjon av Zetkin som ikke støtter den funksjonen du
-      vil bruke, du blir videresendt til den gamle versjonen av Zetkin som støtter
-      denne funksjonen.
+      vil bruke, du blir videresendt til den gamle versjonen av Zetkin som
+      støtter denne funksjonen.
 feat:
   calendar:
     createMenu:
@@ -65,8 +65,7 @@ feat:
       editEvents: Rediger arrangementer
       ellipsisMenu:
         cancel: Avlys
-        cancelWarning: Hvis ja, husk å varsle alle deltakere om at arrangementet er
-          avlyst!
+        cancelWarning: Hvis ja, husk å varsle alle deltakere om at arrangementet er avlyst!
         confirmCancel: Er du sikker på at du vil avlyse de valgte arrangementene?
         confirmDelete: Er du sikker på at du vil slette de valgte arrangementene?
         delete: Slett
@@ -93,8 +92,7 @@ feat:
     blocked:
       callBackLater: Ba om å bli oppringt senere
       calledTooRecently: Ringt for kort tid siden
-      cooldownHelperText: Velg hvor lang tid det skal gå mellom hvert forsøk på å
-        nå et mål
+      cooldownHelperText: Velg hvor lang tid det skal gå mellom hvert forsøk på å nå et mål
       cooldownLabel: Ventetid i timer
       hours: '{cooldown, plural, =0 {None} =1 {# time} other {# timer}}'
       missingPhoneNumber: Mangler telefonnummer
@@ -140,8 +138,8 @@ feat:
             kan gå tapt.
           title: La ringere lagre notater
         targetData:
-          message: Navn og telefonnummer til folk som skal ringes er alltid synlig
-            for ringere. Hvis du skrur på utvidede opplysninger får ringerne se all
+          message: Navn og telefonnummer til folk som skal ringes er alltid synlig for
+            ringere. Hvis du skrur på utvidede opplysninger får ringerne se all
             informasjonen som finnes om den de skal ringe.
           title: Vis utvidede opplysninger om folk som skal ringes
         title: Samtaleinnstillinger
@@ -169,9 +167,10 @@ feat:
       open: Åpen
       scheduled: Planlagt
     stats:
-      callers: '{numCallers, plural, =0 {Ingen ringere} one {En ringer} other {# ringere}}'
-      targets: '{numTargets, plural, =0 {Ingen i målgruppa} one {En person i målgruppa}
-        other {# folk i målgruppa}}'
+      callers: '{numCallers, plural, =0 {Ingen ringere} one {En ringer} other {#
+        ringere}}'
+      targets: '{numTargets, plural, =0 {Ingen i målgruppa} one {En person i
+        målgruppa} other {# folk i målgruppa}}'
     statusSectionTitle: Status
     tabs:
       callers: Ringere
@@ -206,8 +205,8 @@ feat:
       eventItem:
         contact: Ingen kontaktperson tildelt
         locations: '{count} steder'
-        reminders: '{numMissing, plural, =1 {En deltaker} other {# deltakere}} har
-          ikke fått varsel'
+        reminders: '{numMissing, plural, =1 {En deltaker} other {# deltakere}} har ikke
+          fått varsel'
         signups: Uregistrerte påmeldinger finnes
     all:
       cardCTA: Gå til prosjekt
@@ -224,8 +223,8 @@ feat:
       upcoming: '{numEvents, number} kommende arrangementer.'
     allProjects:
       linkToSummary: Gå til mine aktive prosjekter
-      noActivities: Hvis organisasjonen din har aktiviteter som ikke tilhører et prosjekt
-        vises de her.
+      noActivities: Hvis organisasjonen din har aktiviteter som ikke tilhører et
+        prosjekt vises de her.
       viewArchive: Vis arkiv
     assigneeActions: Klikk i appen
     calendarView: Se alle i kalender
@@ -287,8 +286,8 @@ feat:
       public: Offentlig side
       settings: Endre innstillinger
     mobilization:
-      copy: Ringeaksjoner for å mobilisere organisasjonen din vil øke deltakelsen
-        til medlemmene mye
+      copy: Ringeaksjoner for å mobilisere organisasjonen din vil øke deltakelsen til
+        medlemmene mye
       create: Nytt ringeoppdrag
       heading: Mobilisering og kontakt (ingen satt opp)
     noManager: Ingen prosjektansvarlig
@@ -331,8 +330,8 @@ feat:
       noContact: Ingen kontaktperson tildelt!
       removeButton: Fjern
       selectPlaceholder: Velg en kontaktperson
-      warningText: '{name} vil ikke lenger være kontaktpersonen, men er fortsatt registrert
-        som deltaker.'
+      warningText: '{name} vil ikke lenger være kontaktpersonen, men er fortsatt
+        registrert som deltaker.'
     eventOverviewCard:
       buttonEndDate: + Sluttdato
       createLocation: Nytt sted
@@ -370,7 +369,8 @@ feat:
       columnPhone: Telefon
       contactTooltip: Kontaktperson
       descriptionBooked: Dette er de som er registrert og som du stoler på at møter
-        opp. For å avmelde seg må de kontakte deg så du kan melde dem av manuelt.
+        opp. For å avmelde seg må de kontakte deg så du kan melde dem av
+        manuelt.
       descriptionCancelled: Disse har avmeldt seg selv, vi viser dem her så du ikke
         forsøker å registrere dem på nytt.
       descriptionSignups: Disse har meldt seg på i aktivistportalen, de kan fortsatt
@@ -385,8 +385,8 @@ feat:
       backToShifts: Tilbake til skiftliste
       booked: Registrert
       cancel: Avlys
-      cancelWarning: Husk å varsle alle som er registrert eller påmeldt om at arrangementet
-        avlyses.
+      cancelWarning: Husk å varsle alle som er registrert eller påmeldt om at
+        arrangementet avlyses.
       confirmCancel: Er du sikker på at du vil avlyse dette arrangementet?
       confirmDelete: Er du sikker på at du vil slette dette arrangementet?
       contactPerson: Kontaktperson
@@ -409,8 +409,8 @@ feat:
       reminded: Fått varsel
       shifts: Skift
       signups: Påmeldinger
-      unsentReminders: '{numMissing, plural, =1 {En deltaker} other {# deltakere}}
-        har ikke fått varsel'
+      unsentReminders: '{numMissing, plural, =1 {En deltaker} other {# deltakere}} har
+        ikke fått varsel'
     eventRelatedCard:
       header: Relaterte arrangementer
     eventStatus:
@@ -584,8 +584,8 @@ feat:
             ringeoppdrag når som helst.
           two: Fjern folk som har blitt ringt minst en gang i ringeoppdraget "Valgkamp
             2023" de siste 30 dagene.
-        inputString: '{addRemoveSelect} folk som {callSelect} minst {minTimes} i {assignmentSelect}
-          {timeFrame}.'
+        inputString: '{addRemoveSelect} folk som {callSelect} minst {minTimes} i
+          {assignmentSelect} {timeFrame}.'
         minTimes: '{minTimes} {minTimes, plural, one {gang} other {ganger}}'
         minTimesInput: '{input} {minTimes, plural, one {gang} other {ganger}}'
       campaignParticipation:
@@ -602,15 +602,16 @@ feat:
           any: et prosjekt
           campaign: Prosjektet "{campaign}"
         examples:
-          one: Legg til folk som har meldt seg på arrangementer i et prosjekt med
-            en aktivitet på plassen 'Torget' når som helst.
-          two: Fjern folk som ikke har blitt registrert på arrangementer i et prosjekt
-            med aktiviteten "Stå på stand" hvor som helst før i dag.
+          one: Legg til folk som har meldt seg på arrangementer i et prosjekt med en
+            aktivitet på plassen 'Torget' når som helst.
+          two: Fjern folk som ikke har blitt registrert på arrangementer i et prosjekt med
+            aktiviteten "Stå på stand" hvor som helst før i dag.
         haveSelect:
           in: har
           notin: ikke har
-        inputString: '{addRemoveSelect} folk som {haveSelect} {bookedSelect} arrangementer
-          i {campaignSelect} med {activitySelect} på {locationSelect} {timeFrame}'
+        inputString: '{addRemoveSelect} folk som {haveSelect} {bookedSelect}
+          arrangementer i {campaignSelect} med {activitySelect} på
+          {locationSelect} {timeFrame}'
         locationSelect:
           any: et sted
           location: stedet "{location}"
@@ -628,7 +629,7 @@ feat:
         addRemoveSelect:
           add: Legg til
           sub: Fjern
-        ellipsis: '...'
+        ellipsis: ...
         examples:
           one: Legg til folk med fornavn 'Clara' og etternavn 'Zetkin'.
           two: Fjern folk med poststed Oslo.
@@ -679,8 +680,8 @@ feat:
             minMatching: minst {minMatching}
             none: ingen
         examples:
-          one: 'Legg til folk med minst 1 av følgende: ''Medlem'', ''Aktivist'''
-          two: 'Fjern folk med alle av følgende: ''Styremedlem'''
+          one: "Legg til folk med minst 1 av følgende: 'Medlem', 'Aktivist'"
+          two: "Fjern folk med alle av følgende: 'Styremedlem'"
         inputString: '{addRemoveSelect} folk med {condition} av følgende: {tags}'
       personView:
         addRemoveSelect:
@@ -744,12 +745,8 @@ feat:
           any: noen
           none: ingen
         examples:
-          one: 'Fjern folk som har valgt alle de følgende alternativene i spørreundersøkelsen
-            ''Medlemsundersøkelse'' (spørsmålet ''Hvordan er du interessert i å bidra?''):
-            ''Aksjoner'', ''Praktisk arbeid'''
-          two: 'Legg til folk som har valgt noen av de følgende alternativene i spørreundersøkelsen
-            ''Medlemsundersøkelse'' (spørsmålet ''Hvorfor ble du medlem?): ''Jeg ville
-            hjelpe til i valgkampen'''
+          one: "Fjern folk som har valgt alle de følgende alternativene i spørreundersøkelsen 'Medlemsundersøkelse' (spørsmålet 'Hvordan er du interessert i å bidra?'): 'Aksjoner', 'Praktisk arbeid'"
+          two: "Legg til folk som har valgt noen av de følgende alternativene i spørreundersøkelsen 'Medlemsundersøkelse' (spørsmålet 'Hvorfor ble du medlem?): 'Jeg ville hjelpe til i valgkampen'"
         inputString: '{addRemoveSelect} folk som har valgt {conditionSelect} av de
           følgende alternativene i {surveySelect} ({questionSelect}): {options}'
         questionSelect:
@@ -767,8 +764,8 @@ feat:
         examples:
           one: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelse' (alle
             spørsmål) som inneholder 'organisering'.
-          two: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelsen'
-            (Hva er du god på?) som er eksakt 'organisering'.
+          two: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelsen' (Hva er
+            du god på?) som er eksakt 'organisering'.
         inputString: '{addRemoveSelect} folk som har skrevet svar på {surveySelect}
           ({questionSelect}) {matchSelect} "{freeTextInput}"'
         matchSelect:
@@ -805,10 +802,10 @@ feat:
           campaign: prosjektet "{campaign}"
           in: i
         examples:
-          one: Legg til folk som har trykket fullført på innholdet 'Verv en venn'
-            minst en gang når som helst
-          two: Legg til folk som har trykket ignorer på innhold i et prosjekt mellom
-            2 og 5 ganger før i dag
+          one: Legg til folk som har trykket fullført på innholdet 'Verv en venn' minst en
+            gang når som helst
+          two: Legg til folk som har trykket ignorer på innhold i et prosjekt mellom 2 og
+            5 ganger før i dag
         inputString: '{addRemoveSelect} folk som har {taskStatusSelect} {taskSelect}
           {campaignSelect} {matchingSelect} {timeFrame}'
         taskSelect:
@@ -828,8 +825,8 @@ feat:
         examples:
           one: Fjern alle som har en brukerkonto i Zetkin.
           two: Legg til alle som ikke har en brukerkonto i Zetkin.
-        inputString: '{addRemoveSelect} alle folk som {connectedSelect} en brukerkonto
-          i Zetkin.'
+        inputString: '{addRemoveSelect} alle folk som {connectedSelect} en brukerkonto i
+          Zetkin.'
     headers:
       examples: Eksempler
       gallery: Hvordan vil du velge folk?
@@ -876,8 +873,8 @@ feat:
     statsPopper:
       change: endre
       details: Smartsøk er dynamiske. Det betyr at over tid kan antallet treff i søket
-        variere, og andre brukere kan se andre resultater hvis de har tilgang til
-        fler eller færre folk.
+        variere, og andre brukere kan se andre resultater hvis de har tilgang
+        til fler eller færre folk.
       exit: Resultat
       headline: Påvirkning
       info: Dette er et dynamisk kriterie og antallet kan forandres over tid.
@@ -941,8 +938,7 @@ feat:
         warningText: Er du sikker på at du vil slette spørsmålet? Dette kan ikke angres.
       deleteOptionDialog:
         title: Slett alternativ
-        warningText: Er du sikker på at du vil slette alternativet? Dette kan ikke
-          angres.
+        warningText: Er du sikker på at du vil slette alternativet? Dette kan ikke angres.
       open:
         description: Hjelpetekst
         empty: Fritekstspørsmål
@@ -971,8 +967,8 @@ feat:
           bullet3: Skjule spørsmål
           bullet4: Legge til spørsmål eller svaralternativer
           header: Trygg
-        subheader: Vær forsiktig når du gjør endringer slik at ikke informasjonen
-          i tidligere svar går tapt eller blir ubrukelig.
+        subheader: Vær forsiktig når du gjør endringer slik at ikke informasjonen i
+          tidligere svar går tapt eller blir ubrukelig.
         unsafe:
           bullet1: Slette spørsmål (skjul dem istedet)
           bullet2: Endre navn på spørsmål eller svaralternativer som forandrer betydningen
@@ -980,8 +976,9 @@ feat:
           header: Utrygg
       locked:
         header: Spørreundersøkelsen er låst
-        subheader: Denne undersøkelsen har begynt å få inn svar. Hvis du redigerer
-          den nå kan det bli problemer med informasjonen i svarene. Utvis forsiktighet.
+        subheader: Denne undersøkelsen har begynt å få inn svar. Hvis du redigerer den
+          nå kan det bli problemer med informasjonen i svarene. Utvis
+          forsiktighet.
         unlockButton: Lås opp
     layout:
       actions:
@@ -1029,17 +1026,17 @@ feat:
       questions: Spørsmål
       submissions: Svar
     unlinkedCard:
-      description: Når noen besvarer en undersøkelse uten å logge inn blir svaret
-        ikke koblet. Zetkin kan ikke søke etter folk basert på svar i undersøkelser
+      description: Når noen besvarer en undersøkelse uten å logge inn blir svaret ikke
+        koblet. Zetkin kan ikke søke etter folk basert på svar i undersøkelser
         uten at svaret er koblet til en person.
       header: Svar uten kobling
       openLink: '{numUnlink, plural, one {Koble svar nå} other {Koble svar nå}}'
     unlinkedWarningAlert:
       default:
         description: '{numUnlink, plural, one {Ett av de innsendte svarene er ikke
-          koblet til en person i Zetkin, det vil ikke dukke opp i søk.} other {Fler
-          av de innsendte svarene er ikke koblet til folk i Zetkin, de vil ikke dukke
-          opp i søk.}}'
+          koblet til en person i Zetkin, det vil ikke dukke opp i søk.} other
+          {Fler av de innsendte svarene er ikke koblet til folk i Zetkin, de vil
+          ikke dukke opp i søk.}}'
         header: Svar uten kobling
         viewUnlinked: Se kun svar uten kobling
       filtered:
@@ -1079,8 +1076,8 @@ feat:
       title: Etiketter
       ungroupedHeader: Ingen gruppe
       valueTagForm:
-        typeHint: '{type, select, text {Legg til tekst} other {Legg til tall}} som
-          vises på etiketten.'
+        typeHint: '{type, select, text {Legg til tekst} other {Legg til tall}} som vises
+          på etiketten.'
   tasks:
     assignees:
       completedStates:
@@ -1094,10 +1091,10 @@ feat:
       queryStates:
         assigned: Dette innholdet er sendt til alle som velges av smartsøket.
         editable: Når det sendes vil innholdet gå til alle som velges av smartsøket.
-        new: Dette innholdet vil sendes ut til folk som velges av et smartsøk. Før
-          du kan sende det må du velge en målgruppe med et smartsøk.
-        published: Dette innholdet sendes nå til alle som velges av smartsøket, det
-          kan ta litt tid før de mottar det.
+        new: Dette innholdet vil sendes ut til folk som velges av et smartsøk. Før du
+          kan sende det må du velge en målgruppe med et smartsøk.
+        published: Dette innholdet sendes nå til alle som velges av smartsøket, det kan
+          ta litt tid før de mottar det.
       title: Sendt til {numPeople, plural, one {en person} other {# folk}}
     common:
       notSet: Ikke valgt
@@ -1177,8 +1174,8 @@ feat:
       cancel: Avbryt
       submitButton: Send nå
       title: Send innhold
-      warning: Bekreft at du er klar til å sende innholdet. Det vil bli sendt til
-        alle i målgruppa.
+      warning: Bekreft at du er klar til å sende innholdet. Det vil bli sendt til alle
+        i målgruppa.
     showExpiredTasksPrompt: Vis utløpt innhold...
     statuses:
       active: Aktiv
@@ -1194,8 +1191,8 @@ feat:
       publishedTime: Utsendelsestidspunkt
       reassignInterval:
         label: Intervall for å sendes på nytt
-        value: Sendes på nytt {value, plural, =1{en time} other{# timer}} etter mottakeren
-          trykker fullfør
+        value: Sendes på nytt {value, plural, =1{en time} other{# timer}} etter
+          mottakeren trykker fullfør
       reassignLimit:
         label: Antall ganger innholdet sendes på nytt
         value: Sendes på nytt {value, plural, =1{en gang} other{# gangers}} per person
@@ -1274,18 +1271,19 @@ feat:
           description: Enkle felter med informasjon om folk
           title: Grunnleggende informasjon
         categorizing:
-          description: For å gruppere og kategorisere folk, vilkårlig eller basert
-            på informasjon i Zetkin.
+          description: For å gruppere og kategorisere folk, vilkårlig eller basert på
+            informasjon i Zetkin.
           title: Kategorisering
         crossReferencing:
           description: Kryssreferer med informasjon i Zetkin ved hjelp av et smartsøk.
           title: Kryssreferering
         outreach:
-          description: Planlegg, deleger og gjennomfør kontaktarbeid, lagre notater
-            og sjekkliste.
+          description: Planlegg, deleger og gjennomfør kontaktarbeid, lagre notater og
+            sjekkliste.
           title: Kontakt
         surveys:
-          description: Utforsk, søk, og filtrer basert på folk sine svar på spørreundersøkelser.
+          description: Utforsk, søk, og filtrer basert på folk sine svar på
+            spørreundersøkelser.
           title: Spørreundersøkelser
         utility:
           description: Nyttige verktøy du kan bruke i mange situasjoner.
@@ -1296,8 +1294,8 @@ feat:
           columnTitleContacted: Kontaktet
           columnTitleNotes: Notater
           columnTitleResponded: Har svart
-          description: Legger til flere kolonner som ofte brukes til å delegere arbeid
-            til en kontaktperson.
+          description: Legger til flere kolonner som ofte brukes til å delegere arbeid til
+            en kontaktperson.
           title: Delegering
         email:
           description: Legg til en kolonne med e-postadresser
@@ -1413,8 +1411,8 @@ feat:
         searchResults: Resultater for "{searchString}"
     columnMenu:
       configure: Instillinger
-      confirmDelete: Er du sikker på at du vil slette kolonnen? Den inneholder informasjon
-        som vil bli slettet permanent, dette kan ikke angres.
+      confirmDelete: Er du sikker på at du vil slette kolonnen? Den inneholder
+        informasjon som vil bli slettet permanent, dette kan ikke angres.
       delete: Slett kolonne
       rename: Gi nytt navn
     columnRenameDialog:
@@ -1435,8 +1433,8 @@ feat:
     deleteDialog:
       error: Kunne ikke slette lista
       title: Slette liste?
-      warningText: Er du sikker på at du vil slette lista? All informasjon i den,
-        som notater og sjekklister (men folkene vil ikke bli slettet fra Zetkin)?
+      warningText: Er du sikker på at du vil slette lista? All informasjon i den, som
+        notater og sjekklister (men folkene vil ikke bli slettet fra Zetkin)?
     editViewTitleAlert:
       error: Kunne ikke endre tittelen
       success: Tittelen ble endret!
@@ -1450,8 +1448,8 @@ feat:
         dynamic: Dette er en smartsøkliste men ingen folk velges av smartsøket
         static: Du har ikke lagt til noen rader
       static:
-        description: Legg til en person for å lage en statisk liste der folk legges
-          til og fjernes manuelt.
+        description: Legg til en person for å lage en statisk liste der folk legges til
+          og fjernes manuelt.
         headline: Legg til folk manuelt
     folder:
       summary:
@@ -1475,19 +1473,19 @@ feat:
         shareLink: dele informasjonen sikkert
         tabLabel: Last ned
         warning1: Eksporter bare informasjon fra Zetkin hvis det er helt nødvendig.
-          Eksporterte filer skal aldri deles med andre, skal kun lastes ned til en
-          kryptert datamaskin, og skal slettes etter bruk.
-        warning2: Du kan {shareLink} inne i Zetkin, del bare lister med tillitsvalgte
-          og ansatte som har myndighet til å behandle personopplysninger.
+          Eksporterte filer skal aldri deles med andre, skal kun lastes ned til
+          en kryptert datamaskin, og skal slettes etter bruk.
+        warning2: Du kan {shareLink} inne i Zetkin, del bare lister med tillitsvalgte og
+          ansatte som har myndighet til å behandle personopplysninger.
       share:
         addPlaceholder: Legg til andre
-        collabInstructions: Når du har lagt til de som skal ha tilgang til lista,
-          kopier og send dem {viewLink} lister skal bare deles med tillitsvalgte og
+        collabInstructions: Når du har lagt til de som skal ha tilgang til lista, kopier
+          og send dem {viewLink} lister skal bare deles med tillitsvalgte og
           ansatte som har myndighet til å behandle personopplysninger.
         showOfficials: Vis admin og koordinatorer
         statusLabel: Delt med {collaborators, plural, =1 {en person} other {# folk}},
-          {officials, plural, =1 {1 admin/koordinator} other {# admin/koordinatorer}}
-          har tilgang til alle lister.
+          {officials, plural, =1 {1 admin/koordinator} other {#
+          admin/koordinatorer}} har tilgang til alle lister.
         tabLabel: Del
         viewLink: sikker lenke
       title: Del "{title}"
@@ -1507,8 +1505,8 @@ feat:
     toolbar:
       createColumn: Ny kolonne
       createFromSelection: Opprett liste av valgte
-      removeFromSelection: Fjern {numSelected, plural, one {1 person} other {{numSelected}
-        folk} } from view
+      removeFromSelection: Fjern {numSelected, plural, one {1 person} other
+        {{numSelected} folk} } from view
       removeTooltip: Smartsøk støtter ikke fjerning av rader
     viewLayout:
       actions:
@@ -1522,7 +1520,8 @@ feat:
         placeholder: Skriv for å finne liste
       subtitle:
         collaborators: '{count, plural, =1 {1 person} other {# folk}}'
-        columns: '{count, plural, =0 {Ingen kolonner} =1 {En kolonne} other {# kolonner}}'
+        columns: '{count, plural, =0 {Ingen kolonner} =1 {En kolonne} other {#
+          kolonner}}'
         people: '{count, plural, =0 {Empty} =1 {1 person} other {# folk}}'
     viewsList:
       columns:
