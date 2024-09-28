@@ -1,0 +1,12 @@
+projects:
+- messages:
+    format: ts
+    path: src
+  path: '.'
+  translations:
+    path: src/locale
+  languages:
+  - da
+  - de
+  - nn
+  - sv
