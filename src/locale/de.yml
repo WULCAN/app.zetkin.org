@@ -87,8 +87,8 @@ feat:
         all: Alle
         none: Keine
       type: Tippe zum Filtern des Inhalts
-    lastDayWithEvents: Es gab {numEvents, plural, one {eine Aktion} other {{numEvents}
-      Aktionen}} am letzten Tag der Aktion
+    lastDayWithEvents: Es gab {numEvents, plural, one {eine Aktion} other
+      {{numEvents} Aktionen}} am letzten Tag der Aktion
     loadMore: Mehr
     moreEvents: '{numEvents, plural, one {# Aktion mehr} other {# mehr Aktionen}}'
     next: nächste
@@ -99,13 +99,12 @@ feat:
       month: Monat
       week: Woche
     selectionBar:
-      copy: Kopieren
       deselect: Auswahl aufheben
       editEvents: Aktionen bearbeiten
       ellipsisMenu:
         cancel: Absagen
-        cancelWarning: Wenn du diese Aktivität löscht, informiere bitte alle Teilnehmenden
-          und Angemeldeten darüber.
+        cancelWarning: Wenn du diese Aktivität löscht, informiere bitte alle
+          Teilnehmenden und Angemeldeten darüber.
         confirmCancel: Möchtest du die ausgewählten Aktionen wirklich absagen?
         confirmDelete: Möchtest du die ausgewählten Aktionen wirklich löschen?
         delete: Löschen
@@ -113,7 +112,6 @@ feat:
         print: Zeitplan drucken
         publish: Veröffentlichen
         unpublish: Verbergen
-      move: Verschieben
       moveCopyButtons:
         copy: Kopieren
         copyMenuHeader: Kopiere {numberOfEvents} Aktionen zu
@@ -174,21 +172,20 @@ feat:
         unsavedMessage: Es liegen nicht gespeicherte Änderungen vor.
       settings:
         notes:
-          message: Das Notizfeld für Telefonierer*innen zu deaktivieren führt zwar
-            zu mehr Anrufen pro Stunde, wichtige Informationen könnten aber verloren
+          message: Das Notizfeld für Telefonierer*innen zu deaktivieren führt zwar zu mehr
+            Anrufen pro Stunde, wichtige Informationen könnten aber verloren
             gehen.
           title: Notizfeld für Telefonierer*innen erlauben
         targetData:
-          message: Name und Telefonnummer der Zielperson sind immer sichtbar für Telefonierer*innen.
-            Zusätzliche Informationen einzublenden bedeutet alle verfügbaren Felder
-            anzuzeigen.
+          message: Name und Telefonnummer der Zielperson sind immer sichtbar für
+            Telefonierer*innen. Zusätzliche Informationen einzublenden bedeutet
+            alle verfügbaren Felder anzuzeigen.
           title: Zusätzliche Informationen einblenden
         title: Gesprächseinstellungen
     done:
       defineButton: Bearbeite Kriterien für Status Erledigt
       subtitle: Zielpersonen mit Status Erledigt
       title: Erledigt
-    insightsHeader: Telefonate und Gespräche
     organizerActionPane:
       markAsSolved: Als behoben markieren
       markAsUnsolved: Als nicht gelöst markieren
@@ -208,15 +205,14 @@ feat:
       open: Aktiv
       scheduled: Geplant
     stats:
-      callers: '{numCallers, plural, =0 {keine Telefonierer*innen} one {1 Telefonierer*in}
-        other {# Telefonierer*innen}}'
+      callers: '{numCallers, plural, =0 {keine Telefonierer*innen} one {1
+        Telefonierer*in} other {# Telefonierer*innen}}'
       targets: '{numTargets, plural, =0 {keine Zielpersonen} one {1 Zielperson} other
         {# Zielpersonen}}'
     statusSectionTitle: Status
     tabs:
       callers: Telefonierer*innen
       conversation: Gespräch
-      insights: Statistik
       overview: Überblick
     targets:
       defineButton: Definiere Zielgruppe
@@ -248,8 +244,8 @@ feat:
       eventItem:
         contact: Keine zugewiesene Kontaktperson
         locations: '{count} Orte'
-        reminders: '{numMissing, plural, =1 {ein*e Teilnehmende*r} other {# Teilnehmende}}
-          haben noch keine Erinnerung erhalten'
+        reminders: '{numMissing, plural, =1 {ein*e Teilnehmende*r} other {#
+          Teilnehmende}} haben noch keine Erinnerung erhalten'
         signups: Noch nicht bestätigte Anmeldungen
     all:
       cardCTA: Gehe zu Projekt
@@ -266,9 +262,8 @@ feat:
       unsorted: Unsortierte Projekte
       upcoming: '{numEvents, number} anstehende Aktionen'
     allProjects:
-      linkToSummary: Gehe zu meinen aktuellen Projekten.
-      noActivities: Wenn deine Gruppe von Projekten unabhängige Aktivitäten hat, werden
-        sie hier angezeigt.
+      noActivities: Wenn deine Gruppe von Projekten unabhängige Aktivitäten hat,
+        werden sie hier angezeigt.
       viewArchive: Archiv anzeigen
     assigneeActions: Aktionen von Beauftragten
     calendarView: Alles einblenden
@@ -304,7 +299,6 @@ feat:
         success: Projekttitel aktualisiert
       manager:
         label: Projektverantwortliche*r
-        selectSelf: Als verantwortlich eintragen
       name: Name
       requestError: Ein Fehler ist aufgetreten. Bitte versuche es noch einmal.
       required: Pflichtfeld
@@ -334,7 +328,8 @@ feat:
       public: Öffentliche Seite
       settings: Einstellungen bearbeiten
     mobilization:
-      copy: Eine Telefonaktion zur Mobilisierung umzusetzen wird die Teilnahme erhöhen.
+      copy: Eine Telefonaktion zur Mobilisierung umzusetzen wird die Teilnahme
+        erhöhen.
       create: Telefonaktion erstellen
       heading: Mobilisierung
     noManager: kein*e Verantwortliche*r
@@ -379,7 +374,8 @@ feat:
         noValue: Kein Datenwert
         title: Zusammenzuführende Daten
       infoMessage: Alle Aktivitäten und Tags von allen Personen, die zusammengeführt
-        werden, werden übertragen und sichtbar sein bei der zusammengeführten Person.
+        werden, werden übertragen und sichtbar sein bei der zusammengeführten
+        Person.
       infoTitle: Keine Daten werden verloren gehen.
       isDuplicateButton: Einbeziehen
       mergeButton: Zusammenführen
@@ -394,11 +390,9 @@ feat:
     page:
       dismiss: ablehnen
       noDuplicates: keine Duplikate
-      noDuplicatesDescription: Ja! All deine Mitglieder scheinen einzelne Individuen
-        zu sein.
+      noDuplicatesDescription: Ja! All deine Mitglieder scheinen einzelne Individuen zu sein.
       possibleDuplicates: Mögliche Duplikate
-      possibleDuplicatesDescription: Diese {numPeople} Personen sehen sehr ähnlich
-        aus.
+      possibleDuplicatesDescription: Diese {numPeople} Personen sehen sehr ähnlich aus.
       resolve: Beheben
   emails:
     blocked:
@@ -408,15 +402,15 @@ feat:
       title: Blockiert
       unsubscribed: Abbestellt
     deliveryProblems:
-      contentError: Es gibt Probleme im Inhalt deiner E-Mail. Gehe in das Bearbeitungsfeld
-        in der Registerkarte Erstellen und korrigiere sie.
-      empty: Deine E-Mail ist leer. Gehe in die Registerkarte Erstellen und füge Inhalt
-        hinzu.
+      contentError: Es gibt Probleme im Inhalt deiner E-Mail. Gehe in das
+        Bearbeitungsfeld in der Registerkarte Erstellen und korrigiere sie.
+      empty: Deine E-Mail ist leer. Gehe in die Registerkarte Erstellen und füge
+        Inhalt hinzu.
       noSubject: Deine E-Mail hat keine Betreffzeile. Gehe in Einstellungen in der
         Registerkarte Erstellen und füge eine hinzu.
-      notTargeted: Deine E-Mail hat keine Zieladressen. Gehe in den Abschnitt Ziele
-        in der Registerkarte Übersicht und erstelle eine Smarte Suche, die deine Ziele
-        definiert.
+      notTargeted: Deine E-Mail hat keine Zieladressen. Gehe in den Abschnitt Ziele in
+        der Registerkarte Übersicht und erstelle eine Smarte Suche, die deine
+        Ziele definiert.
       targetsNotLocked: Die Ziele sind nicht gespeichert. Gehe in den Abschnitt Fertig
         in der Registerkarte Übersicht um das zu erledigen.
     deliveryStatus:
@@ -426,15 +420,16 @@ feat:
       willSend: Wird gesendet um {datetime}
     editor:
       readOnlyModeInfo: Diese E-Mail kann nur gelesen werden, weil sie zum Versand
-        geplant ist oder bereits versendet wurde. Wenn sie zum Versand geplant ist
-        und du sie verändern möchtest, musst du zuerst den geplanten Versand abbrechen.
+        geplant ist oder bereits versendet wurde. Wenn sie zum Versand geplant
+        ist und du sie verändern möchtest, musst du zuerst den geplanten Versand
+        abbrechen.
       settings:
         tabs:
           content: Inhalt
           preview:
             confirmation: Eine Vorschau wurde an deine E-Mail-Adresse gesendet.
-            instructions: Hier kannst du diese E-Mail an dich selbst senden, um vorab
-              zu prüfen, wie sie für die Empfänger aussehen wird.
+            instructions: Hier kannst du diese E-Mail an dich selbst senden, um vorab zu
+              prüfen, wie sie für die Empfänger aussehen wird.
             okButton: OK!
             sendButton: Versenden
             sendTo: 'Die E-Mail wird an diese Adresse gesendet:'
@@ -481,8 +476,8 @@ feat:
       sendNow:
         alert:
           desc: Es gibt vermutlich bessere Tageszeiten, um E-Mails zu versenden. Der
-            geplante Versand gibt dir auch die Möglichkeit, Deinen Versand mit anderen
-            Koordinator*innen zu koordinieren.
+            geplante Versand gibt dir auch die Möglichkeit, Deinen Versand mit
+            anderen Koordinator*innen zu koordinieren.
           title: Ein Versand zum jetzigen Zeitpunkt könnte ungünstig sein.
         header: Jetzt senden
       setDate: Stelle ein Versanddatum ein, bevor du fortfährst.
@@ -503,9 +498,10 @@ feat:
       subtitle: Ziele, die momentan für den Versand zur Verfügung stehen.
       title: Fertig
       unlockButton: Entsperren
-      unlockDescription: Gehe weiter zum Versand oder entsperre die Empfänger, um
-        die Zielbestimmung anzupassen. Entsperren kann zum Hinzufügen oder Entfernen
-        von Zieladressen führen, je nachdem, welche Ergebnisse die Smarte Suche hat.
+      unlockDescription: Gehe weiter zum Versand oder entsperre die Empfänger, um die
+        Zielbestimmung anzupassen. Entsperren kann zum Hinzufügen oder Entfernen
+        von Zieladressen führen, je nachdem, welche Ergebnisse die Smarte Suche
+        hat.
     state:
       draft: Entwurf
       scheduled: Geplant
@@ -521,8 +517,8 @@ feat:
       defineButton: Definiere die Zielgruppe
       editButton: Bearbeite die Zielgruppe
       locked: Ziele sind für den Versand gesperrt.
-      sentSubtitle: Du kannst dir die Smarte Suche ansehen, die zu Grunde gelegt wurde,
-        um die Empfänger dieser E-Mail zu bestimmen.
+      sentSubtitle: Du kannst dir die Smarte Suche ansehen, die zu Grunde gelegt
+        wurde, um die Empfänger dieser E-Mail zu bestimmen.
       subtitle: Benutze die Smarte Suche, um die Empfänger dieser E-Mail zu bestimmen.
       title: Ziele
       viewButton: Zielgruppe ansehen
@@ -530,9 +526,9 @@ feat:
       consent: Ich stimme zu
       h: Abbestellen der E-Mails von {org}
       info: Nach dem Abbestellen erhälst du keine weiteren Massen-E-Mails von dieser
-        Organisation. Du wirst nach wie vor E-Mail-Erinnerungen und andere E-Mails
-        erhalten, die dir spezifisch gesendet werden im Rahmen der Funktionen und
-        Aufgaben, die du für die Organisation übernommen hast.
+        Organisation. Du wirst nach wie vor E-Mail-Erinnerungen und andere
+        E-Mails erhalten, die dir spezifisch gesendet werden im Rahmen der
+        Funktionen und Aufgaben, die du für die Organisation übernommen hast.
       unsubButton: E-Mails abbestellen
     unsubscribedPage:
       h: E-Mails abbestellt!
@@ -581,7 +577,6 @@ feat:
       startTime: Von
       url: Link
     eventParticipantsCard:
-      booked: Benachrichtigungen
       confirmed: Teilnahme bestätigt
       contact: Kontakt
       header: Teilnehmende
@@ -606,11 +601,11 @@ feat:
       columnNotified: Benachrichtigt
       columnPhone: Telefon
       contactTooltip: Kontaktperson
-      descriptionBooked: Hier siehst du die von dir gebuchten Teilnehmenden. Um abzusagen
-        müssen die Teilnehmenden dich kontaktieren und dann kannst du sie aus der
-        Liste entfernen.
-      descriptionCancelled: Hier siehst du die Teilnehmenden, die abgesagt haben.
-        Sie bleiben hier sichtbar, damit du sie nicht noch einmal buchst.
+      descriptionBooked: Hier siehst du die von dir gebuchten Teilnehmenden. Um
+        abzusagen müssen die Teilnehmenden dich kontaktieren und dann kannst du
+        sie aus der Liste entfernen.
+      descriptionCancelled: Hier siehst du die Teilnehmenden, die abgesagt haben. Sie
+        bleiben hier sichtbar, damit du sie nicht noch einmal buchst.
       descriptionSignups: Hier siehst du die Angemeldeten. Sie können ihre Anmeldung
         jederzeit widerrufen.
       dropDownAttended: Bestätigte Teilnahme
@@ -647,8 +642,8 @@ feat:
       reminded: Erinnert
       shifts: Schichten
       signups: Anmeldungen
-      unsentReminders: '{numMissing, plural, =1 {ein*e Teilnehmende*r} other {# Teilnehmende}}
-        haben noch keine Erinnerung erhalten'
+      unsentReminders: '{numMissing, plural, =1 {ein*e Teilnehmende*r} other {#
+        Teilnehmende}} haben noch keine Erinnerung erhalten'
     eventRelatedCard:
       header: Verwandte Aktionen
     eventShiftModal:
@@ -689,21 +684,6 @@ feat:
       open: Aktiv
       scheduled: Geplant
       unknown: Unbekannt
-    form:
-      activity: Aktivität
-      campaign: Kampagne
-      cancel: Abbrechen
-      create: Erstelle neue Aktion
-      edit: Bearbeite Aktion
-      end: Ende
-      info: Information zur Anmeldung
-      link: Link
-      minNo: Mindestteilnehmendenzahl
-      place: Ort
-      required: Pflichtfeld
-      start: Start
-      submit: Erstellen
-      title: Überschrift
     list:
       events: Aktionen
       noEvents: Keine Aktionen
@@ -712,8 +692,8 @@ feat:
       createLocation: Erstelle neuen Ort
       description: Beschreibung
       infoText: Du kannst die Karte durch Klicken und Ziehen verschieben und mit zwei
-        Fingern oder durch Scrollen zoomen. Um einen neuen Ort zu erstellen, kannst
-        du auf eine leere Stelle in der Karte klicken.
+        Fingern oder durch Scrollen zoomen. Um einen neuen Ort zu erstellen,
+        kannst du auf eine leere Stelle in der Karte klicken.
       move: Verschieben
       moveInstructions: Verschiebe die Nadel, um einen Ort auszuwählen.
       noDescription: Keine Beschreibung
@@ -789,10 +769,11 @@ feat:
     configuration:
       configure:
         dates:
-          customFormatDescription: Beschreibe das Format der Werte in dieser Spalte
-            und benutze dabei die Buchstaben Y, M und D und jedes beliebige Zeichen,
-            um die Werte zu trennen. Wenn dein Datum beispielsweise in dem Format
-            1998.03.23 sein soll, würdest du es beschreiben als YYYY.MM.DD.
+          customFormatDescription: Beschreibe das Format der Werte in dieser Spalte und
+            benutze dabei die Buchstaben Y, M und D und jedes beliebige Zeichen,
+            um die Werte zu trennen. Wenn dein Datum beispielsweise in dem
+            Format 1998.03.23 sein soll, würdest du es beschreiben als
+            YYYY.MM.DD.
           customFormatLabel: Eigenes Datumsformat
           dateInputLabel: Datumsformat
           description: Wähle das Format der Werte in dieser Spalte aus, damit diese
@@ -809,32 +790,32 @@ feat:
               description: Die Werte in dieser Spalte werden von 10stelliger dänischer
                 CPR-Nummer (DDMMYY-XXXX or DDMMYYXXXX) in Daten übertragen.
               label: Dänische CPR-Nummer
-            'no':
+            no:
               description: Die Werte in dieser Spalte werden von der 11stelligen norwegischen
                 fødselsnummer (DDMMYYXXXXX or DDMMYY-XXXXX) in Daten übertragen.
               label: Norwegische fødselsnummer
             se:
               description: Die Daten in dieser Spalte werden von der 10 oder 12stelligen
-                schwedischen Personnummer (YYMMDD-XXXX or YYYYMMDD-XXXX) in Daten
-                übertragen.
+                schwedischen Personnummer (YYMMDD-XXXX or YYYYMMDD-XXXX) in
+                Daten übertragen.
               label: Schwedische Personnummer
           wrongDateFormatWarning: Einige Werte in dieser Spalte können nicht in Daten
             übertragen werden, wenn dieses Format benutzt wird.
         ids:
           configExplanation: Importieren mit IDs erlaubt Zetkin (jetzt oder in der
-            Zukunft) existierende Personen in der Datenbank zu aktualisieren, ohne
-            Duplikate zu erstellen.
+            Zukunft) existierende Personen in der Datenbank zu aktualisieren,
+            ohne Duplikate zu erstellen.
           externalID: Externe ID
-          externalIDExplanation: Die Werte in dieser Spalte sind IDs von unserem Mitgliederprogramm
-            (nicht Zetkin).
+          externalIDExplanation: Die Werte in dieser Spalte sind IDs von unserem
+            Mitgliederprogramm (nicht Zetkin).
           header: Konfiguriere IDs
           showOrganizationSelectButton: zuordnen zu ...
-          wrongIDFormatWarning: Die Werte in dieser Spalte sehen nicht aus wie Zetkin
-            IDs. Eine Zetkin ID besteht nur aus Zahlen. Wenn einige Zellen leer sind
-            oder f.x. Buchstaben enthalten, kann es nicht als Zetkin ID genutzt werden.
+          wrongIDFormatWarning: Die Werte in dieser Spalte sehen nicht aus wie Zetkin IDs.
+            Eine Zetkin ID besteht nur aus Zahlen. Wenn einige Zellen leer sind
+            oder f.x. Buchstaben enthalten, kann es nicht als Zetkin ID genutzt
+            werden.
           zetkinID: Zetkin ID
-          zetkinIDExplanation: Die Werte in dieser Spalte basieren auf einem Export
-            von Zetkin.
+          zetkinIDExplanation: Die Werte in dieser Spalte basieren auf einem Export von Zetkin.
         orgs:
           guess: Vermute Organisationen
           header: Ordner Werte den Organisationen zu.
@@ -852,26 +833,29 @@ feat:
         defaultColumnHeader: Spalte {columnIndex}
         emptyStateMessage: Anfangen durch Zuordnen von Dateispalten
         fileHeader: Datei
-        finishedMappingDates: Zuordnen von {numValues, plural, =1 {1 value} other
-          {# values}} from {dateFormat, select, se {Swedish personnummer} no {Norwegian
-          fødselsnummer} dk {Danish CPR-number} other {{dateFormat}}} in Daten
+        finishedMappingDates: Zuordnen von {numValues, plural, =1 {1 value} other {#
+          values}} from {dateFormat, select, se {Swedish personnummer} no
+          {Norwegian fødselsnummer} dk {Danish CPR-number} other {{dateFormat}}}
+          in Daten
         finishedMappingIds: Zuordnen von {numValues, plural, =1 {1 value} other {#
           values}} to {idField, select, id {Zetkin ID} other {external ID}}
         finishedMappingOrganizations: '{numPeople, plural, =1 {1 person} other {#
-          people}} mapped to {numMappedTo, plural, =1 {1 organization} other {# organizations}}'
-        finishedMappingTags: Mapping {numRows, plural, =1 {1 row} other {# rows}}
-          to {numMappedTo, plural, =1 {1 tag} other {# tags}}
+          people}} mapped to {numMappedTo, plural, =1 {1 organization} other {#
+          organizations}}'
+        finishedMappingTags: Mapping {numRows, plural, =1 {1 row} other {# rows}} to
+          {numMappedTo, plural, =1 {1 tag} other {# tags}}
         header: Zuordnen
         id: ID
         mapValuesButton: Zuordnungswerte
         messages:
           manyValuesAndEmpty: '{firstValue}, {secondValue}, {thirdValue}, {numMoreValues,
-            plural, =1 {one other value} other {# other values}} and {numEmpty, plural,
-            =1 {one empty row} other {# empty rows}}.'
-          manyValuesNoEmpty: '{firstValue}, {secondValue}, {thirdValue} and {numMoreValues,
-            plural, =1 {one other value} other {# other values}}.'
-          oneValueAndEmpty: '{firstValue} and {numEmpty, plural, =1 {one empty row}
-            other {# empty rows}}.'
+            plural, =1 {one other value} other {# other values}} and {numEmpty,
+            plural, =1 {one empty row} other {# empty rows}}.'
+          manyValuesNoEmpty: '{firstValue}, {secondValue}, {thirdValue} and
+            {numMoreValues, plural, =1 {one other value} other {# other
+            values}}.'
+          oneValueAndEmpty: '{firstValue} and {numEmpty, plural, =1 {one empty row} other
+            {# empty rows}}.'
           oneValueNoEmpty: '{firstValue}.'
         organization: Organisation
         selectZetkinField: Importiere als ...
@@ -919,7 +903,9 @@ feat:
           erstellt.'
         defaultDesc: '{numPeople} wurden aktualisiert in {field}'
         organization: Organisation
-        orgs: "{numPeople} wurden hinzugefügt zu \n {org}"
+        orgs: |-
+          {numPeople} wurden hinzugefügt zu 
+           {org}
         tags: Schlagworte
         tagsDesc: '{numPeople} wurden {tags} hinzugefügt'
         updated: '{number} {numPeople, plural, =1 {person} other {people}} wurden
@@ -936,8 +922,8 @@ feat:
       scheduled:
         desc: Du kannst diesen Dialog schließen -  wir werden dir eine E-Mail senden,
           sobald der Import abgeschlossen ist.
-        title: Das ist ein großer Import, der ziemlich viel Zeit braucht, bis er abgeschlossen
-          ist.
+        title: Das ist ein großer Import, der ziemlich viel Zeit braucht, bis er
+          abgeschlossen ist.
     preflight:
       headers:
         messages: Nachrichten
@@ -954,16 +940,16 @@ feat:
           title: 'Falsches Format für das Feld: {field}'
         majorChange:
           description: Diese Warnung wird eingeblendet, wenn mehr als 30% der importierten
-            Personen betroffen sind. Stelle sicher, dass du die Spalten richtig konfiguriert
-            hast.
+            Personen betroffen sind. Stelle sicher, dass du die Spalten richtig
+            konfiguriert hast.
           title: Dieser Import wird  "{field}" für {amount} Personen überschrieben.
         missingIdAndName:
           description: Jede Zeile muss mindestens einen Namen oder eine ID einer Person
             beinhalten, die bereits bei Zetkin existiert.
           title: Nicht alle Reihen haben Identifikatoren.
         noImpact:
-          description: Grund kann sein, dass die Datei keine neue Daten beinhaltet
-            oder dass es einen unbekannten Fehler gibt.
+          description: Grund kann sein, dass die Datei keine neue Daten beinhaltet oder
+            dass es einen unbekannten Fehler gibt.
           title: Dieser Import würde keinen Effekt haben.
         ok:
           description: Stelle sicher, dass die Zusammenfassung gut aussieht und klicke
@@ -971,30 +957,31 @@ feat:
           title: Keine Probleme wurden gefunden.
         unconfiguredId:
           description: Das würde zu Duplikaten in der Datenbank führen. Wenn das dein
-            erster Import ist, empfehlen wir, zurück zu gehen und eine externe ID
-            auszuwählen, die du nehmen kannst, um weiterzumachen.
+            erster Import ist, empfehlen wir, zurück zu gehen und eine externe
+            ID auszuwählen, die du nehmen kannst, um weiterzumachen.
           title: Du hast keine ID Spalte ausgewählt.
         unconfiguredIdAndName:
-          description: Jeder Import muss mindestens einen vollständigen Namen oder
-            IDs der Personen enthalten, die bereits in Zetkin existieren.
+          description: Jeder Import muss mindestens einen vollständigen Namen oder IDs der
+            Personen enthalten, die bereits in Zetkin existieren.
           title: Du hast noch keine identifizierenden Spalten konfiguriert.
         unexpectedError:
-          description: Keine Personen wurden importiert. Du kannst zurück gehen und
-            die Importeinstellungen prüfen oder eine neue Datei zum Importieren auswählen.
-            Es existierten Fehler in dem Formular, das du abgesendet hast. Bitte versuch
-            es nochmal oder stelle sicher, dass du die notwendigen Informationen eingetragen
-            hast. Wenn der Fehler weiterbestehen bleibt, wende dich an den Support
-            unter info@zetkin.org.
+          description: Keine Personen wurden importiert. Du kannst zurück gehen und die
+            Importeinstellungen prüfen oder eine neue Datei zum Importieren
+            auswählen. Es existierten Fehler in dem Formular, das du abgesendet
+            hast. Bitte versuch es nochmal oder stelle sicher, dass du die
+            notwendigen Informationen eingetragen hast. Wenn der Fehler
+            weiterbestehen bleibt, wende dich an den Support unter
+            info@zetkin.org.
           title: Etwas ist schief gegangen und der Import wurde abgebrochen.
         unknownError:
-          description: Kontaktiere den Support, wenn du Hilfe brauchst, um das Problem
-            zu verstehen.
+          description: Kontaktiere den Support, wenn du Hilfe brauchst, um das Problem zu
+            verstehen.
           title: Ein unbekannter Fehler ist aufgetreten.
         unknownPerson:
           description: Du hast eine Spalte als Zetkin IDs konfiguriert, aber die Spalte
-            beinhaltet IDs, die nicht in Zetkin existieren. Wolltest du eine externe
-            ID benutzen, oder wurden einige Personen gelöscht, seit die Datei erstellt
-            wurde?
+            beinhaltet IDs, die nicht in Zetkin existieren. Wolltest du eine
+            externe ID benutzen, oder wurden einige Personen gelöscht, seit die
+            Datei erstellt wurde?
           title: Versuche die fehlenden Einträge zu aktualisieren.
         validating: Überprüfen
     steps:
@@ -1058,8 +1045,7 @@ feat:
         dialog:
           outcomeFieldPlaceholder: Beschreibe das Ergebnis von {singularLabel}
           outcomeLabel: Ergebnis
-          outcomeTagsDescription: Füge irgendein Schlagwort hinzu, das das Ergebnis
-            beschreibt.
+          outcomeTagsDescription: Füge irgendein Schlagwort hinzu, das das Ergebnis beschreibt.
           outcomeTagsLabel: Ergebnis Schlagworte
         error: Es gab einen Fehler beim Schließen von {singularLabel}
         label: Schließe {singularLabel}
@@ -1092,8 +1078,7 @@ feat:
         outcome: Das {journeyTitle} ist erledigt.
         summary: Zusammenfassung
         timeline: Notizen
-      summaryPlaceholder: Gib eine kurze Beschreibung des Status des {journeyTitle}
-        an.
+      summaryPlaceholder: Gib eine kurze Beschreibung des Status des {journeyTitle} an.
       updated: letzte Aktivität
     instances:
       columns:
@@ -1214,7 +1199,6 @@ feat:
     placeholder: Tippe, um zu suchen
     results:
       callassignment: Telefonaktion
-      campaign: Kampagne
       people: Personen
       person: Person
       project: Projekt
@@ -1233,16 +1217,16 @@ feat:
       administrators:
         columns:
           name: Name
-        description: Administrator*innen können jede Art von Inhalt erstellen, bearbeiten
-          und löschen.
+        description: Administrator*innen können jede Art von Inhalt erstellen,
+          bearbeiten und löschen.
         roleInheritance: Administrator*in in
         title: Administrator*innen
       organizers:
         columns:
           inheritance: Rollen-Vererbung
           name: Name
-        description: Organizer*innen haben ausreichend Rechte, um Kampagnen zu organisieren
-          und um existierende Telefonaktionen zu managen.
+        description: Organizer*innen haben ausreichend Rechte, um Kampagnen zu
+          organisieren und um existierende Telefonaktionen zu managen.
         roleInheritance: Organizer*in in
         title: Organizer*innen
       settingsLayout:
@@ -1261,12 +1245,6 @@ feat:
       close: Schließen
       goBack: Zurück zur Suche
       save: Speichern
-    filterCategories:
-      campaignActivity: Projektaktivität
-      misc: Sonstiges
-      peopleDatabase: Personen
-      phoneBanking: Telefonaktion
-      surveys: Umfragen
     filterGallery:
       categories:
         basicInformation:
@@ -1276,8 +1254,8 @@ feat:
           description: Auswahl auf Grundlage von Listen und Smarten Suchanfragen
           title: Querverweis
         email:
-          description: Finde Personen auf Grundlage der Daten, die durch das Senden
-            von E-Mails erfasst wurden.
+          description: Finde Personen auf Grundlage der Daten, die durch das Senden von
+            E-Mails erfasst wurden.
           title: E-Mails
         events:
           description: Auswahl auf Grundlage von Daten von Veranstaltungen
@@ -1299,12 +1277,10 @@ feat:
           description: Finde Personen, die angerufen wurden - erreicht oder nur versucht
           title: Anrufliste
         campaign_participation:
-          description: Wer hat sich angemeldet? Wer wurde eingetragen? Wer nicht?
-            Finde sie!
+          description: Wer hat sich angemeldet? Wer wurde eingetragen? Wer nicht? Finde sie!
           title: Teilnehmende an Veranstaltungen
         email_blacklist:
-          description: Rückläufer, falsche Adressen, keine Zustellung - hier findest
-            du sie.
+          description: Rückläufer, falsche Adressen, keine Zustellung - hier findest du sie.
           title: Personen, die vom E-Mail-Empfang ausgeschlossen sind.
         email_click:
           description: Haben sie geklickt? oder nicht?
@@ -1316,8 +1292,8 @@ feat:
           description: Name, Adresse, E-Mail und mehr!
           title: Persönliche Informationen
         person_field:
-          description: Wie grundlegende persönliche Informationen, aber Suchfelder,
-            die angepasst sind auf diese Organisation.
+          description: Wie grundlegende persönliche Informationen, aber Suchfelder, die
+            angepasst sind auf diese Organisation.
           title: angepasste Felder
         person_tags:
           description: Um Personen zu finden mit oder ohne spezifische Schlagworte.
@@ -1345,31 +1321,13 @@ feat:
           description: Haben sie eine Umfrage ausgefüllt? Oder nicht? Finde sie hier!
           title: Ausgefüllte Umfragen
         task:
-          description: Füge Personen auf Grundlage ihrer erledigten Aufgaben hinzu
-            oder entferne sie
+          description: Füge Personen auf Grundlage ihrer erledigten Aufgaben hinzu oder
+            entferne sie
           title: Aufgaben
         user:
-          description: Finde Personen die mit einem Zetkin-Konto verbunden sind oder
-            die das nicht sind.
+          description: Finde Personen die mit einem Zetkin-Konto verbunden sind oder die
+            das nicht sind.
           title: Zetkin Benutzer
-    filterTitles:
-      all: Alle
-      call_blocked: Für Anrufe gesperrt
-      call_history: Auf Grundlage bisheriger Telefonate
-      campaign_participation: Auf Grundlage ihrer Teilnahme an Aktionen
-      most_active: Aktivste Personen
-      person_data: Auf Grundlage ihres Namens, ihrer Adresse und anderer persönlicher
-        Angaben
-      person_field: Auf Grundlage benutzerdefinierter Felder
-      person_tags: Auf Grundlage von Stichworten
-      person_view: Personen einer Liste
-      random: Zufällige Auswahl
-      sub_query: Auf Grundlage einer vorherigen Intelligenten Suche
-      survey_option: Auf Grundlage ihrer Antwortauswahlen in Umfragen
-      survey_response: Auf Grundlage ihrer Umfrageantworten
-      survey_submission: Personen, die an einer Umfrage teilgenommen haben
-      task: Personen, die Aufgaben übernommen haben
-      user: Personen, die Zetkin benutzt haben
     filters:
       all:
         inputString: Starte mit {startWithSelect}.
@@ -1377,15 +1335,9 @@ feat:
           'false': leere Liste
           'true': Liste aller Personen in der Organisation
       callBlocked:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         inputString: '{addRemoveSelect} Personen, die zum Anrufen aus irgendwelchen
           Gründen blockiert sind'
       callHistory:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         assignmentSelect:
           any: irgendeiner Aufgabe
           assignment: Telefonaktion "{assignmentTitle}"
@@ -1395,21 +1347,18 @@ feat:
           notreached: nicht erreicht wurden
           reached: erfolgreich erreicht wurden
         examples:
-          one: Füge Personen hinzu, die mindestens 2mal erfolgreich erreicht wurden
-            für irgendeine Aufgabe zu irgendeinem Zeitpunkt.
+          one: Füge Personen hinzu, die mindestens 2mal erfolgreich erreicht wurden für
+            irgendeine Aufgabe zu irgendeinem Zeitpunkt.
           two: Entferne Personen, die in den letzten 30 Tagen mindestens 1mal angerufen
             wurden für die Aufgabe "langjährige Mitglieder aktivieren".
-        inputString: '{addRemoveSelect} Personen, die {callSelect} mindestens {minTimesInput}
-          {minTimes} in {assignmentSelect} {timeFrame}.'
+        inputString: '{addRemoveSelect} Personen, die {callSelect} mindestens
+          {minTimesInput} {minTimes} in {assignmentSelect} {timeFrame}.'
         minTimes: '{minTimesInput} {minTimes, plural, one {mal} other {mal}}'
         minTimesInput: '{input} {minTimes, plural, one {mal} other {mal}}'
       campaignParticipation:
         activitySelect:
           activity: Typ "{activity}"
           any: irgendeine
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         bookedSelect:
           booked: gebucht
           signed_up: angemeldet
@@ -1419,20 +1368,20 @@ feat:
         examples:
           one: Füge Personen hinzu, die sich für irgendein Projekt irgendeiner Art
             irgendwann am Ort 'Dorfplatz' angemeldet haben.
-          two: Entferne Personen, die nicht für Events der Art 'Poster aufhängen'
-            in irgendeinem Projekt an irgendeinem Ort bis heute gebucht wurden
+          two: Entferne Personen, die nicht für Events der Art 'Poster aufhängen' in
+            irgendeinem Projekt an irgendeinem Ort bis heute gebucht wurden
         haveSelect:
           in: wurden
           notin: wurden nicht
-        inputString: '{addRemoveSelect} Personen, die {haveSelect} {bookedSelect}
-          für Aktionen in {campaignSelect} des Typs {activitySelect} in {locationSelect}
-          {timeFrame}'
+        inputString: '{addRemoveSelect} Personen, die {haveSelect} {bookedSelect} für
+          Aktionen in {campaignSelect} des Typs {activitySelect} in
+          {locationSelect} {timeFrame}'
         locationSelect:
           any: irgendein Ort
           location: Ort "{location}"
       emailBlacklist:
-        inputString: '{addRemoveSelect} Personen, die eine E-Mail erhalten werden,
-          auf Grund von {reasonSelect}'
+        inputString: '{addRemoveSelect} Personen, die eine E-Mail erhalten werden, auf
+          Grund von {reasonSelect}'
         reasonSelect:
           any: aus irgendeinem Grund
           unsubOrg: sie haben sich abgemeldet
@@ -1441,8 +1390,7 @@ feat:
           anyFollowingLinks: irgendeinen der folgenden Links in der spezifischen E-Mail
           anyLink: irgendeinen Link in irgendeiner E-Mail
           anyLinkInEmail: irgendeinen Link in einer spezifischen E-Mail
-          linkInEmailFromProject: irgendeinen Link in irgendeiner E-Mail in einem
-            spezifischen Projekt
+          linkInEmailFromProject: irgendeinen Link in irgendeiner E-Mail in einem spezifischen Projekt
         operatorSelect:
           clicked: geklickt
           notClicked: nicht geklickt
@@ -1475,23 +1423,18 @@ feat:
           closed: erledigt
           open: noch offen
       mostActive:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
           one: Füge die 100 aktivsten Mitglieder der Organisation vor heute hinzu.
-          two: Entferne die zu irgendeinem Zeitpunkt 5 aktivsten Mitglieder der Organisation
-        inputString: '{addRemoveSelect} die {numPeopleSelect} aktivsten {numPeople}
-          in der Organisation {timeFrame}.'
+          two: Entferne die zu irgendeinem Zeitpunkt 5 aktivsten Mitglieder der
+            Organisation
+        inputString: '{addRemoveSelect} die {numPeopleSelect} aktivsten {numPeople} in
+          der Organisation {timeFrame}.'
         numPeople: '{numPeople, plural, one {Person} other {Personen}}'
       personData:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: entfernen
-        ellipsis: '...'
+        ellipsis: ...
         examples:
-          one: Füge alle Personen hinzu, deren Vorname 'Clara' und deren Nachname
-            'Zetkin' ist.
+          one: Füge alle Personen hinzu, deren Vorname 'Clara' und deren Nachname 'Zetkin'
+            ist.
           two: Entferne alle Personen, deren Ort Stockholm ist.
         fieldMatches: '{field} entspricht {value}'
         fieldSelect:
@@ -1514,9 +1457,6 @@ feat:
           unknown: unbekannt
         inputString: '{addRemoveSelect} jede Person deren {criteria}.'
       personField:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         edit:
           date: '{fieldSelect} ist {timeFrame}'
           none: Diese Organisation hat bisher keine benutzerdefinierten Felder.
@@ -1530,34 +1470,24 @@ feat:
           text: '{fieldName} entspricht "{searchTerm}"'
           url: '{fieldName} entspricht "{searchTerm}"'
       personTags:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         condition:
           conditionSelect:
             all: alle
             any: irgendeinem
-            minMatching: mindestens
             none: keinem
           preview:
             all: alle
             any: irgendeinem
-            minMatching: mindestens {minMatching}
             none: keinem
         examples:
-          one: 'Füge Personen hinzu mit mindestens einem der folgenden Stichwörter:
-            ''Mitglied'', ''Aktivist*in'''
-          two: 'Entferne Personen mit allen der folgenden Stichwörter: ''Vorstandsmitglied'''
-        inputString: '{addRemoveSelect} Personen mit {condition} den folgenden Schlagworten:
-          {tags}'
+          one: "Füge Personen hinzu mit mindestens einem der folgenden Stichwörter: 'Mitglied', 'Aktivist*in'"
+          two: "Entferne Personen mit allen der folgenden Stichwörter: 'Vorstandsmitglied'"
+        inputString: '{addRemoveSelect} Personen mit {condition} den folgenden
+          Schlagworten: {tags}'
       personView:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
           one: Füge Personen hinzu, die in der Liste "Aktive Mitglieder 2022" stehen.
-          two: Entferne Personen, die nicht in der Liste "Aktive Mitglieder 2022"
-            stehen.
+          two: Entferne Personen, die nicht in der Liste "Aktive Mitglieder 2022" stehen.
         inSelect:
           in: in
           notin: nicht in
@@ -1570,21 +1500,16 @@ feat:
           add: hinzufügen
           limit: Nur
           sub: entfernen
-        addRemoveSelect:
-          add: hinzufügen
-          sub: entfernen
         examples:
           one: Füge zufällig 20 Personen aus der Organisation hinzu.
           two: Entferne zufällig 15% der Personen der Organisation.
         inputString: Zufällig {addRemoveSelect} {quantity} Personen in der Organisation.
       subQuery:
-        addRemoveSelect:
-          add: Hinzufügen
         examples:
           one: Entferne Personen, die der Intelligenten Suche 'Personen, die in Stockholm
             leben' entsprechen.
-          two: Füge Personen hinzu, die der Zielgruppe der Telefonaktion 'Auftrag
-            1' angehören.
+          two: Füge Personen hinzu, die der Zielgruppe der Telefonaktion 'Auftrag 1'
+            angehören.
         inputString: '{addRemoveSelect} Personen, die {matchSelect} {query}.'
         matchSelect:
           in: übereinstimmen
@@ -1610,22 +1535,16 @@ feat:
               Suchanfragen.
             standalone: eigenständige Intelligente Suchanfrage
       surveyOption:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         conditionSelect:
           all: alle
           any: irgendeine
           none: keine
         examples:
-          one: 'Entferne alle Personen, die alle der folgenden Optionen in der Umfrage
-            ''Mitgliederumfrage 2020'' (Frage ''Frage 1'') ausgewählt haben: ''manchmal'',
-            ''niemals'''
-          two: 'Füge alle Personen hinzu, die irgendeine der folgenden Optionen in
-            der Umfrage ''Mitgliederumfrage'' (Frage ''Frage 2'') ausgewählt haben:
-            ''Option 2'''
-        inputString: '{addRemoveSelect} Personen, die folgende Optionen in {surveySelect}
-          ({questionSelect}) ausgewählt haben {conditionSelect}: {options}'
+          one: "Entferne alle Personen, die alle der folgenden Optionen in der Umfrage 'Mitgliederumfrage 2020' (Frage 'Frage 1') ausgewählt haben: 'manchmal', 'niemals'"
+          two: "Füge alle Personen hinzu, die irgendeine der folgenden Optionen in der Umfrage 'Mitgliederumfrage' (Frage 'Frage 2') ausgewählt haben: 'Option 2'"
+        inputString: '{addRemoveSelect} Personen, die folgende Optionen in
+          {surveySelect} ({questionSelect}) ausgewählt haben {conditionSelect}:
+          {options}'
         questionSelect:
           any: eine Frage
           none: Es gibt keine Fragen mit Auswahloptionen in dieser Umfrage.
@@ -1635,14 +1554,11 @@ feat:
           none: Diese Organisation hat bisher keine angelegten Umfragen.
           survey: Umfrage "{surveyTitle}"
       surveyResponse:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
           one: Personen, deren Antworten in der Umfrage 'Mitgliederumfrage' (irgendeine
             Frage) 'organize' beinhalten.
-          two: Personen, deren Antworten in der Umfrage 'Mitgliederumfrage' (Frage
-            'Frage 1') mit 'organize' genau übereinstimmen.
+          two: Personen, deren Antworten in der Umfrage 'Mitgliederumfrage' (Frage 'Frage
+            1') mit 'organize' genau übereinstimmen.
         inputString: '{addRemoveSelect} Personen, deren Antwort auf {surveyselect}
           ({questionSelect}) {matchSelect} "{freeTextInput}"'
         matchSelect:
@@ -1659,14 +1575,11 @@ feat:
           none: Diese Organisation hat bisher keine angelegten Umfragen.
           survey: Umfrage "{surveyTitle}"
       surveySubmission:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
-          one: Personen, die an der Umfrage 'Mitgliederumfrage 2020' vor heute teilgenommen
-            haben.
-          two: Personen, die an der Umfrage 'Mitgliederumfrage 2020' in den letzten
-            30 Tagen teilgenommen haben.
+          one: Personen, die an der Umfrage 'Mitgliederumfrage 2020' vor heute
+            teilgenommen haben.
+          two: Personen, die an der Umfrage 'Mitgliederumfrage 2020' in den letzten 30
+            Tagen teilgenommen haben.
         inputString: '{addRemoveSelect} Personen, die Antworten auf {surveySelect}
           {timeFrame} gegeben haben.'
         surveySelect:
@@ -1674,9 +1587,6 @@ feat:
           none: Diese Organisation hat bisher keine angelegten Umfragen.
           survey: Umfrage "{surveyTitle}"
       task:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         campaignSelect:
           any: irgendein Projekt
           campaign: Projekt "{campaign}"
@@ -1684,10 +1594,10 @@ feat:
         examples:
           one: Füge Personen hinzu, die die Aufgabe 'Freund*innen davon erzählen'
             mindestens 1mal irgendwann erledigt haben.
-          two: Füge Personen hinzu, die irgendeine Aufgabe in irgendeinem Projekt
-            zwischen 2 und 5mal bis heute ignoriert haben.
-        inputString: '{addRemoveSelect} Personen, die {taskStatusSelect} {taskSelect}{campaignSelect}
-          {matchingSelect} {timeFrame} haben.'
+          two: Füge Personen hinzu, die irgendeine Aufgabe in irgendeinem Projekt zwischen
+            2 und 5mal bis heute ignoriert haben.
+        inputString: '{addRemoveSelect} Personen, die {taskStatusSelect}
+          {taskSelect}{campaignSelect} {matchingSelect} {timeFrame} haben.'
         taskSelect:
           any: irgendeine Aufgabe
           task: Aufgabe "{task}"
@@ -1696,16 +1606,12 @@ feat:
           completed: beendet
           ignored: ignoriert
       user:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         connectedSelect:
           'false': nicht verknüpft
           'true': verknüpft
         examples:
           one: Alle Personen entfernen, die mit einem Zetkinprofil verknüpft sind.
-          two: Alle Personen hinzufügen, die nicht mit einem Zetkinprofil verknüpft
-            sind.
+          two: Alle Personen hinzufügen, die nicht mit einem Zetkinprofil verknüpft sind.
         inputString: '{addRemoveSelect} alle Personen, die mit einem Zetkinprofil
           {connectedSelect} sind.'
     headers:
@@ -1761,9 +1667,9 @@ feat:
     smartSearch: Intelligente Suche
     statsPopper:
       change: verändern
-      details: Die Intelligente Suche ist dynamisch. Das bedeutet, dass die Treffer
-        im Verlaufe der Zeit sich verändern können. Andere Benutzer*innen sehen andere
-        Ergebnisse, falls sie Zugriff auf mehr oder weniger Daten haben.
+      details: Die Intelligente Suche ist dynamisch. Das bedeutet, dass die Treffer im
+        Verlaufe der Zeit sich verändern können. Andere Benutzer*innen sehen
+        andere Ergebnisse, falls sie Zugriff auf mehr oder weniger Daten haben.
       exit: Ergebnis
       headline: Auswirkung der Auswahl
       info: Dies ist eine dynamische Auswahl. Entsprechend können die Zahlen sich
@@ -1865,17 +1771,18 @@ feat:
           bullet3: Fragen verbergen
           bullet4: Fragen oder Antwortmöglichkeiten hinzufügen
           header: Sicher
-        subheader: Sei vorsichtig keine Veränderungen zu machen, die bisherige Ergebnisse
-          verzerren oder löschen.
+        subheader: Sei vorsichtig keine Veränderungen zu machen, die bisherige
+          Ergebnisse verzerren oder löschen.
         unsafe:
           bullet1: Fragen löschen (besser verbergen)
-          bullet2: Fragen oder Antwortmöglichkeiten so umbenennen, dass die Bedeutung
-            sich verändert
+          bullet2: Fragen oder Antwortmöglichkeiten so umbenennen, dass die Bedeutung sich
+            verändert
           header: Nicht sicher
       locked:
         header: Umfrage schreibgeschützt
-        subheader: Achtung! An dieser Umfrage wurde bereits teilgenommen. Wenn du
-          die Umfrage jetzt bearbeitest, kann das Probleme mit den Ergebnissen verursachen.
+        subheader: Achtung! An dieser Umfrage wurde bereits teilgenommen. Wenn du die
+          Umfrage jetzt bearbeitest, kann das Probleme mit den Ergebnissen
+          verursachen.
         unlockButton: Entsperren
     layout:
       actions:
@@ -1886,8 +1793,8 @@ feat:
         submissions: '{numSubmissions, plural, one {1 Teilnahme} other {# Teilnahmen}}'
     optionCollapse:
       collapse: Ausblenden
-      more: '{numOfOptions, plural, one {Zeige 1 zusätzliche Option} other {Zeige
-        # zusätzliche Optionen}}'
+      more: '{numOfOptions, plural, one {Zeige 1 zusätzliche Option} other {Zeige #
+        zusätzliche Optionen}}'
     organizerActionPane:
       subtitle: Notizen bei Anrufen von {person}
       title: Aktion erforderlich
@@ -1924,23 +1831,24 @@ feat:
       submissions: Teilnahmen
     unlinkedCard:
       description: Wenn eine Person an der Umfrage teilnimmt ohne sich einzuloggen,
-        ist diese Teilnahme nicht verknüpft mit einem Profil. Erst nach der Verknüpfung
-        mit einem Profil kannst du nach Personen in Zetkin basierend auf ihren Umfrageantworten
-        suchen.
+        ist diese Teilnahme nicht verknüpft mit einem Profil. Erst nach der
+        Verknüpfung mit einem Profil kannst du nach Personen in Zetkin basierend
+        auf ihren Umfrageantworten suchen.
       header: Nicht verknüpfte Teilnahmen
       openLink: '{numUnlink, plural, one {Verknüpfe Teilnahme jetzt} other {Verknüpfe
         Teilnahmen jetzt}}'
     unlinkedWarningAlert:
       default:
-        description: '{numUnlink, plural, one {Eine Umfrageteilnahme ist nicht mit
-          einem Zetkinprofil verknüpft, wodurch diese bei der Suche nicht berücksichtigt
-          werden kann.} other {Mehrere Umfrageteilnahmen sind nicht mit einem Zetkinprofil
-          verknüpft, wodurch diese bei der Suche nicht berücksichtigt werden können.}}'
+        description: '{numUnlink, plural, one {Eine Umfrageteilnahme ist nicht mit einem
+          Zetkinprofil verknüpft, wodurch diese bei der Suche nicht
+          berücksichtigt werden kann.} other {Mehrere Umfrageteilnahmen sind
+          nicht mit einem Zetkinprofil verknüpft, wodurch diese bei der Suche
+          nicht berücksichtigt werden können.}}'
         header: Nicht verknüpfte Teilnahmen
         viewUnlinked: Nur nicht verknüpfte Teilnahmen einblenden
       filtered:
-        description: Diese Liste ist gefiltert und zeigt nur Umfrageteilnahmen an,
-          die nicht mit einem Profil bei Zetkin verknüpft sind.
+        description: Diese Liste ist gefiltert und zeigt nur Umfrageteilnahmen an, die
+          nicht mit einem Profil bei Zetkin verknüpft sind.
         header: Nur nicht verknüpfte Teilnahmen angezeigt
         viewAll: Alle einblenden
     urlCard:
@@ -1963,7 +1871,6 @@ feat:
       groupCreatePrompt: Füge "{groupName}" hinzu
       groupLabel: Gruppe
       groupSelectPlaceholder: Tippe, um Gruppe zu suchen oder zu erstellen
-      submitCreateTagButton: Erstellen und anwenden
       titleErrorText: Schlagwort-Namen eingeben
       titleLabel: Schlagwort-Name
       typeLabel: Schlagwort-Typ
@@ -1979,8 +1886,8 @@ feat:
       title: Schlagworte
       ungroupedHeader: Keine Gruppe
       valueTagForm:
-        typeHint: '{type, select, text {Füge Text ein} other {Füge eine Zahl ein}}
-          als Ergänzung zum Schlagwort.'
+        typeHint: '{type, select, text {Füge Text ein} other {Füge eine Zahl ein}} als
+          Ergänzung zum Schlagwort.'
     tagsPage:
       createTagButton: Erstellen
       noTags: Deine Organisation hat noch keine Schlagworte
@@ -1998,13 +1905,13 @@ feat:
         edit: Bearbeite Intelligente Suche
         readOnly: Zeige Intelligente Suche
       queryStates:
-        assigned: Diese Aufgabe wurden allen Personen zugeteilt, die mit der Intelligenten
-          Suchanfrage übereinstimmen.
-        editable: Nach Veröffentlichung wird diese Aufgabe den Personen zugeteilt,
-          die mit der Intelligenten Suchanfrage übereinstimmen.
+        assigned: Diese Aufgabe wurden allen Personen zugeteilt, die mit der
+          Intelligenten Suchanfrage übereinstimmen.
+        editable: Nach Veröffentlichung wird diese Aufgabe den Personen zugeteilt, die
+          mit der Intelligenten Suchanfrage übereinstimmen.
         new: Diese Aufgabe wird den Personen zugeteilt, die mit der Intelligenten
-          Suchanfrage übereinstimmen. Vor der Veröffentlichung musst du eine Zielgruppe
-          mit der Intelligenten Suche erstellen.
+          Suchanfrage übereinstimmen. Vor der Veröffentlichung musst du eine
+          Zielgruppe mit der Intelligenten Suche erstellen.
         published: Diese Aufgabe ist momentan den Personen zugeteilt, die mit der
           Intelligenten Suchanfrage übereinstimmen.
       title: '{numPeople, plural, one {# Person} other {# Personen}} zugewiesen'
@@ -2060,8 +1967,8 @@ feat:
           lessThanOneMinute: weniger als eine Minute
           noEstimate: Keine Angabe
         timeValidationErrors:
-          deadlineNotSecond: Diese Aufgabe muss nach der Veröffentlichung und vor
-            dem Ablaufdatum geplant werden.
+          deadlineNotSecond: Diese Aufgabe muss nach der Veröffentlichung und vor dem
+            Ablaufdatum geplant werden.
           expiresNotThird: Diese Aufgabe muss als Letztes geplant werden
           publishedNotFirst: Diese Aufgabe muss als Erstes geplant werden
         title: Überschrift
@@ -2088,8 +1995,8 @@ feat:
       cancel: Abbrechen
       submitButton: Aufgabe jetzt veröffentlichen
       title: Aufgabe veröffentlichen
-      warning: Bitte bestätige, dass du bereit bist um diese Aufgabe jetzt zu veröffentlichen.
-        Sie wird an alle Beauftragten versendet.
+      warning: Bitte bestätige, dass du bereit bist um diese Aufgabe jetzt zu
+        veröffentlichen. Sie wird an alle Beauftragten versendet.
     showExpiredTasksPrompt: Zeige abgelaufene Aufgaben...
     statuses:
       active: Aktiv
@@ -2197,19 +2104,19 @@ feat:
           description: Felder für Angaben zur Person
           title: Grundlegendes
         categorizing:
-          description: Personen gruppieren, kategorisieren oder auswählen - zufällig
-            oder auf der Grundlage von Daten in Zetkin.
+          description: Personen gruppieren, kategorisieren oder auswählen - zufällig oder
+            auf der Grundlage von Daten in Zetkin.
           title: Systematisierung
         crossReferencing:
           description: Abgleichen mit Daten in Zetkin durch Intelligente Suche
           title: Datenabgleich
         outreach:
-          description: Planen, delegieren und ausführen von Kontaktarbeit sowie Berichterstattung
-            danach
+          description: Planen, delegieren und ausführen von Kontaktarbeit sowie
+            Berichterstattung danach
           title: Kontaktaufbau
         surveys:
-          description: Suchen, filtern und entdecken basierend auf Umfrageantworten
-            von Personen
+          description: Suchen, filtern und entdecken basierend auf Umfrageantworten von
+            Personen
           title: Umfragen
         utility:
           description: viel genutzte Spalten für verschiedene Situationen
@@ -2299,8 +2206,7 @@ feat:
           surveyField: Umfragen
           title: Mehrere Fragen
         surveySubmitDate:
-          description: Prüfen ob und wann eine Person an einer Umfrage teilgenommen
-            hat
+          description: Prüfen ob und wann eine Person an einer Umfrage teilgenommen hat
           noSurveys: Deine Organisation hat keine Umfragen angelegt.
           title: Teilnahmedatum
         tag:
@@ -2338,8 +2244,9 @@ feat:
         searchResults: Treffer für "{searchString}"
     columnMenu:
       configure: Spalte erstellen
-      confirmDelete: Bist du sicher, dass du diese Spalte löschen möchtest? Die enthaltenen
-        Daten werden gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.
+      confirmDelete: Bist du sicher, dass du diese Spalte löschen möchtest? Die
+        enthaltenen Daten werden gelöscht. Diese Aktion kann nicht rückgängig
+        gemacht werden.
       delete: Spalte löschen
       rename: Spalte umbenennen
     columnRenameDialog:
@@ -2349,8 +2256,7 @@ feat:
       create_column: Es ist ein Fehler aufgetreten beim Erstellen der Spalte
       delete_column: Es ist ein Fehler aufgetreten beim Löschen der Spalte
       modify_column: Es ist ein Fehler aufgetreten beim Bearbeiten der Spalte
-      remove_rows: Es ist ein Fehler aufgetreten beim Löschen einer oder mehreren
-        Zeilen
+      remove_rows: Es ist ein Fehler aufgetreten beim Löschen einer oder mehreren Zeilen
     defaultColumnTitles:
       local_bool: Kontrollkästchen
       local_person: Personenverweis
@@ -2369,8 +2275,8 @@ feat:
     empty:
       dynamic:
         configureButton: Erstellen
-        description: Erstelle mit der Intelligenten Suche eine dynamische Liste, in
-          der Personen automatisch hinzugefügt und gelöscht werden.
+        description: Erstelle mit der Intelligenten Suche eine dynamische Liste, in der
+          Personen automatisch hinzugefügt und gelöscht werden.
         headline: Erstelle Liste mit Intelligenter Suche
       notice:
         dynamic: Dies ist eine mit Intelligenter Suche erstellte Liste, die keine
@@ -2401,19 +2307,20 @@ feat:
           xlsx: Excel Datei herunterladen
         shareLink: Daten verschlüsselt teilen
         tabLabel: Herunterladen
-        warning1: Achtung! Vermeide Datenexporte aus Zetkin unter allen Umständen,
-          um die Datenbank aktuell und übersichtlich zu halten.
-        warning2: Du kannst {shareLink} innerhalb Zetkins. Export macht nur Sinn,
-          wenn du die Daten in ein anderes System übertragen möchtest. Bitte kontaktiere
-          deine Organisation.
+        warning1: Achtung! Vermeide Datenexporte aus Zetkin unter allen Umständen, um
+          die Datenbank aktuell und übersichtlich zu halten.
+        warning2: Du kannst {shareLink} innerhalb Zetkins. Export macht nur Sinn, wenn
+          du die Daten in ein anderes System übertragen möchtest. Bitte
+          kontaktiere deine Organisation.
       share:
         addPlaceholder: Mitstreiter*in hinzufügen
-        collabInstructions: Nachdem du Mitstreiter*innen hinzugefügt hast, kopiere
-          und versende {viewLink}
+        collabInstructions: Nachdem du Mitstreiter*innen hinzugefügt hast, kopiere und
+          versende {viewLink}
         showOfficials: Admins anzeigen
         statusLabel: Geteilt mit {collaborators, plural, =1 {1 Mitstreiter*in kann}
-          other {# Mitstreiter*innen können}}, {officials, plural, =1 {1 Hauptamtliche*r
-          kann} other {# Hauptamtliche können}} auf alle Listen zugreifen.
+          other {# Mitstreiter*innen können}}, {officials, plural, =1 {1
+          Hauptamtliche*r kann} other {# Hauptamtliche können}} auf alle Listen
+          zugreifen.
         tabLabel: Teilen
         viewLink: zugriffsbeschränkter Link
       title: Teile "{title}"
@@ -2433,8 +2340,8 @@ feat:
     toolbar:
       createColumn: Neue Spalte
       createFromSelection: Erstelle Liste aus Auswahl
-      removeFromSelection: Entferne {numSelected, plural, one {1 Person} other {{numSelected}
-        Personen} } von der Liste
+      removeFromSelection: Entferne {numSelected, plural, one {1 Person} other
+        {{numSelected} Personen} } von der Liste
       removeTooltip: In Listen erstellt aus Intelligenter Suche können momentan keine
         Zeilen gelöscht werden
     viewLayout:
@@ -2458,30 +2365,48 @@ feat:
         owner: Erstellt von
         title: Überschrift
       empty: Du hast noch keine Listen erstellt.
-glob:
-  accessLevels:
-    configure: Bearbeiten & Erstellen
-    edit: In Bearbeitung
-    readonly: Schreibgeschützte Ansicht
-  personFields:
-    alt_phone: Weitere Telefonnummer
-    city: Stadt
-    co_address: Adresszusatz
-    country: Land
-    email: Email
-    ext_id: Externe ID
-    first_name: Vorname
-    gender: Geschlechtsidentität
-    id: ID
-    is_user: hat Profil
-    last_name: Nachname
-    phone: Telefonnummer
-    street_address: Adresse
-    zip_code: Postleitzahl
-  roles:
-    admin: Admin
-    organizer: Organizer*in
 zui:
+  timeline:
+    addNotePlaceholder: Tippe, um eine Notiz zu erstellen
+    email:
+      headers:
+        cc: CC
+        from: Von
+        to: An
+    expand: gesamte Zeitleiste einblenden
+    filter:
+      byType:
+        all: Alle
+        files: Ordner
+        milestones: Meilensteine
+        notes: Notizen
+        people: Personen
+        tags: Schlagworte
+      filterSelectLabel: 'Zeige: {filter}'
+      warning: Die Zeitleiste erscheint gefiltert. Klicke hier, um den Filter zu
+        entfernen.
+    updates:
+      any:
+        addtags: '{actor} hat {count, plural, =1 {ein Schlagwort} other {# Schlagworte}}
+          hinzugefügt'
+        removetags: '{actor} hat {count, plural, =1 {ein Schlagwort} other {#
+          Schlagworte}} entfernt'
+      journeyinstance:
+        addassignee: '{actor} hat {assignee} zugewiesen'
+        addnote: '{actor} hat eine Notiz hinzugefügt'
+        addsubject: '{actor} hat {subject} hinzugefügt'
+        convert: '{actor} hat {oldLabel} zu {newLabel} umgewandelt'
+        removesubject: '{actor} hat {subject} entfernt'
+        update:
+          readMore: Mehr
+          summary: '{actor} hat die Zusammenfassung bearbeitet'
+          title: '{actor} hat den Titel bearbeitet'
+        updatemilestone:
+          complete: '{actor} hat einen Meilenstein abgeschlossen'
+          deadline: '{actor} hat eine Meilensteinfrist aktualisiert'
+          deadlineRemove: Frist gelöscht
+          deadlineUpdate: jetzt fällig {datetime}
+          incomplete: '{actor} hat Meilenstein als unvollständig markiert'
   accessList:
     added: Hinzugefügt durch {sharer} {updated}
     removeAccess: Rechte beschränken
@@ -2558,8 +2483,6 @@ zui:
     collapseButton:
       collapse: Ausblenden
       expand: Einblenden
-  imageSelectDialog:
-    instructions: Ziehen und ablegen von Bilddateien oder klicken zum Auswählen
   lists:
     showMore: Mehr anzeigen...
   orgScopeSelect:
@@ -2569,7 +2492,6 @@ zui:
       suborgs: Nur Unterorganisationen
       this: Nur {org}
   organizeSidebar:
-    allOrganizations: Alle Organisationen
     areas: Bereiche
     filter: Tippe, um zu filtern
     home: Startseite
@@ -2596,11 +2518,6 @@ zui:
     error: Oh nein, etwas ist schief gegangen.
     success: Erfolg!
     warning: Achtung!
-  speedDial:
-    createCampaign: Erstelle Kampagne
-    createEvent: Erstelle Aktion
-    createTask: Erstelle Aufgabe
-    requestError: Es ist ein Fehler aufgetreten.
   submitOrCancel:
     cancel: Abbrechen
     submit: Erstellen
@@ -2609,46 +2526,6 @@ zui:
     multiDayToday: Heute, {start} - {endDate}, {end}
     singleDayAllDay: ganztägig heute
     singleDayToday: Heute, {start} - {end}
-  timeline:
-    addNotePlaceholder: Tippe, um eine Notiz zu erstellen
-    email:
-      headers:
-        cc: CC
-        from: Von
-        to: An
-    expand: gesamte Zeitleiste einblenden
-    filter:
-      byType:
-        all: Alle
-        files: Ordner
-        milestones: Meilensteine
-        notes: Notizen
-        people: Personen
-        tags: Schlagworte
-      filterSelectLabel: 'Zeige: {filter}'
-      warning: Die Zeitleiste erscheint gefiltert. Klicke hier, um den Filter zu entfernen.
-    updates:
-      any:
-        addtags: '{actor} hat {count, plural, =1 {ein Schlagwort} other {# Schlagworte}}
-          hinzugefügt'
-        removetags: '{actor} hat {count, plural, =1 {ein Schlagwort} other {# Schlagworte}}
-          entfernt'
-      journeyinstance:
-        addassignee: '{actor} hat {assignee} zugewiesen'
-        addnote: '{actor} hat eine Notiz hinzugefügt'
-        addsubject: '{actor} hat {subject} hinzugefügt'
-        convert: '{actor} hat {oldLabel} zu {newLabel} umgewandelt'
-        removesubject: '{actor} hat {subject} entfernt'
-        update:
-          readMore: Mehr
-          summary: '{actor} hat die Zusammenfassung bearbeitet'
-          title: '{actor} hat den Titel bearbeitet'
-        updatemilestone:
-          complete: '{actor} hat einen Meilenstein abgeschlossen'
-          deadline: '{actor} hat eine Meilensteinfrist aktualisiert'
-          deadlineRemove: Frist gelöscht
-          deadlineUpdate: jetzt fällig {datetime}
-          incomplete: '{actor} hat Meilenstein als unvollständig markiert'
   timezonePicker:
     gmt: GMT
     placeholder: Tippe um den Ort zu suchen
